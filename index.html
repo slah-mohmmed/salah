@@ -1,69 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
+
+<body> {font-family :Tajawal-Regular }
+
     <header>
         <nav class="navigation">
-            <div class="logo" >
+            <div class="logo">
                 <h1>salah </h1>
             </div>
             <div class="navigation-list">
                 <ul>
                     <li><a href="#home"> الرئيسية</a></li>
                     <li><a href="#menu"> مهاراتي </a></li>
-                    <li><a href="# about">اعمالي </a></li>
+                    <li><a href="#about">اعمالي </a></li>
                     <li><a href="#contact"> الخدمات</a></li>
-                    <li><a href="#contact"> التواصل</a></li>
+                    <li><a href="#grid-contact"> التواصل</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-   
+
     <section class="home" id="home">
         <div class="home-content">
-          <div class="home-imgs">
-            <img src="img s/image-1.jpg" alt="" width="300px">
-          </div>   
-             <div class="home-text">
-              <h2 class="home-title">MIS نظم معلومات إدارية </h2>
-               <P class="home-textet">   مرحبا بك في موقعي الشخصي . انا خريج نظم معلومات  
-                  وأسعى الى تطبيق المعرفة التقنية والإدارية في تطوير حلول  تصفح الصفحات الاخرى للتتعرف على </P>
+            <div class="home-imgs">
+                <img src="img s/image-1.jpg" alt="" width="270" height="300">
+            </div>
+            <div class="home-text">
+                <p class="nam "> مرحبا-اسمي </p>
+                <h2 class="home-title"> صلاح الشهاب</h2>
+                <P class="home-textet"> نظم معلومات إدارية
+                    وأسعى الى تطبيق المعرفة التقنية والإدارية في تطوير حلول ذكية
+                    <br>تصفح الصفحات الاخرى للتتعرف على
+                </P>
 
-           </div>  
-
-        </div> 
-    </section>
-    
-    <section class="menu" id="menu">
-        
-        <div class="menu-card">
-            <img src="img s/image-1.jpg"   alt="Espresso">
-            <h3>ادارة قواعد البانات </h3>
-            <p> لدي معرفة بلغات البرمجة</p>
-            <span class="price">MSQ</span>
             </div>
 
-            <div class="menu-card">
-                <img src="img s/image-1.jpg"   alt="Espresso">
-                <h3>ادارة قواعد البانات </h3>
-                <p> لدي معرفة بلغات البرمجة</p>
-                <span class="price">MSQ</span>
-                </div>
+        </div>
+    </section>
 
-                <div class="menu-card">
-                    <img src="img s/image-1.jpg"   alt="Espresso">
-                    <h3>ادارة قواعد البانات </h3>
-                    <p> لدي معرفة بلغات البرمجة</p>
-                    <span class="price">MSQ</span>
-                    </div>
+    <section class="menu" id="menu">
+
+        <div class="menu-card">
+            <img src="img s/IMG_20251205_171608.jpg" alt="Espresso">
+            <h3> تطوير و تصميم مواقع ويب </h3>
+            <p> تصميم واجهات حديثة</p>
+            <span class="price"> HTML,CSS</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="img s/IMG_20251205_171649.jpg" alt="Espresso">
+            <h3>برمجة وادارة وتصميم قواعد البيانات </h3>
+            <p> بلغات البرمجة</p>
+            <span class="price"> PHP,MSQ</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="img s/IMG_20251205_171649.jpg" alt="Espresso">
+            <h3>ادارة قواعد البيانات </h3>
+            <p> لدي معرفة بلغات البرمجة</p>
+            <span class="price"> PHP,MSQ</span>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <img src="img s/IMG-20250422-WA0018.jpg" width="200px" alt="Espresso">
+            <h4>نظام حجز المواعيد الطبية</h4>
+            <p> نظام الحجز للمواعيد مع لوحة تحكم بالموقع HTML,CSS ,PHP,MySql</p>
+        </div>
+        <div class="about-content">
+            <img src="img s/IMG-20250422-WA0013.jpg" width="200px" alt="Espresso">
+            <h4>نظام حجز المواعيد الطبية</h4>
+            <p> نظام الحجز للمواعيد مع لوحة تحكم بالموقع HTML,CSS ,PHP,MySql</p>
+        </div>
+        <div class="about-content">
+            <img src="img s/k8.PNG" width="200px" alt="Espresso">
+            <h4>نظام الصيدلية </h4>
+            <p> نظام الصيدلية مع لوحة تحكم بالموقع HTML,CSS ,PHP,MySql</p>
+        </div>
+    </section>
+
+
+    <section class="grid-contact" id="grid-contact">
+
+        <div class="grid-container">
+            <h1>تواصل معي</h1>
+            <p class="intro">
+                يسعدني تواصلك معي! يمكنك استخدام النموذج التالي لإرسال رسالة مباشرة.
+            </p>
+
+            <form class=" grid-contact-form">
+                <label>الاسم الكامل</label>
+                <input type="text" placeholder="اكتب اسمك هنا" required>
+                <br>
+                <label>البريد الإلكتروني</label>
+                <input type="email" placeholder="example@mail.com" required>
+                <br>
+                
+                <label>الرسالة</label>
+                <textarea placeholder="اكتب رسالتك..." required></textarea>
+                <br>
+
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+        <div class="grid-wats-app">
+            <h1> معلومات الاتصال</h1>
+            <h4 class="gmail"> slahashab7@gmail.com :البريد</h4>
+            <p class="mobal"> +967 772965547: الهاتف</p>
+            <h3 class="wats-app-a"> <a href="https ://wa.me/967772965547"></a></h3>
+
+        </div>
+
+        </section>
+        <footer>
+        <div class="footer-sla">
+            <p class="foorer-sl">salahashab © 2025 .
+                <br>Wab-Developer: جميع الحقوق محفوظة
+            </p>
+        </div>
+
+        <div class="fotar-rwbt">
+            <ul class="rabet-wtsap">
+                <li class="rabet-w">
+                    <a href="#" ></a>
+                </li>
+            
         
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+
     
 
-</section>
 </body>
+
 </html>
